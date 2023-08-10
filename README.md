@@ -33,6 +33,7 @@ On a related note, we can use colors to show each macroblock:
 ffmpeg -debug vis_mb_type -i input.mp4 output.mp4
 
 This will also show you the motion vectors:
+===========================================================================
 ffplay -debug vis_mb_type -vismv 7 input.mp4
 
 
